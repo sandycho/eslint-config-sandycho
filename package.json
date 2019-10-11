@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-sandycho",
+  "version": "1.0.0",
+  "description": "Shareable eslint config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandy Chuchuca",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandycho/eslint-config-sandycho.git"
+  },
+  "peerDependencies": {
+    "@vue/eslint-config-prettier": ">= ^5.0.0",
+    "babel-eslint": ">= ^10.0.1",
+    "eslint": ">= ^5.16.0",
+    "eslint-plugin-prettier": ">= ^3.1.0",
+    "eslint-plugin-vue": ">= ^5.2.3",
+    "prettier": ">= ^1.18.2"
+  }
+}
